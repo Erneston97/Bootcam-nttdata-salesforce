@@ -15,6 +15,10 @@ Esta es una aplicación web que genera una lista de 10 usuarios aleatorios utili
   - CSS3
   - JavaScript (Vanilla)
 
+## Uso de WebFlux
+
+Esta aplicación utiliza Spring WebFlux para el manejo de peticiones HTTP de manera reactiva. WebFlux proporciona un modelo de programación no bloqueante que permite manejar un gran número de conexiones concurrentes con menos recursos. En nuestra implementación, utilizamos `Flux` para procesar el stream de datos de usuarios de manera eficiente, permitiendo una mejor gestión de la memoria y un rendimiento optimizado en comparación con aproximaciones tradicionales. La naturaleza reactiva de WebFlux nos permite procesar los datos de usuarios a medida que llegan, sin necesidad de esperar a que se complete toda la respuesta.
+
 ## Requisitos Previos
 
 - Java 11 o superior
@@ -24,7 +28,7 @@ Esta es una aplicación web que genera una lista de 10 usuarios aleatorios utili
 
 1. Clonar el repositorio:
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Erneston97/Bootcam-nttdata-salesforce.git
 cd Bootcam-nttdata-salesforce
 ```
 
